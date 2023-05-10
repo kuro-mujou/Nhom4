@@ -51,6 +51,7 @@ public class ComplexNumber
 		temp.a = this.a - c.a;
 		temp.b = this.b - c.b;
 		System.out.println("Subtract: ");
+		temp.output();
 	}
 	
 	//thanh
