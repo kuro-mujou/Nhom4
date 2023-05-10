@@ -47,7 +47,10 @@ public class ComplexNumber
 	//hieu
 	public void subtract(ComplexNumber c)
 	{
-		
+		ComplexNumber temp = new ComplexNumber();
+		temp.a = this.a - c.a;
+		temp.b = this.b - c.b;
+		System.out.println("Subtract: ");
 	}
 	
 	//thanh
