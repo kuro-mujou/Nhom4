@@ -39,8 +39,9 @@ public class ComplexNumber
 	}
 	
 	//bao
+        public void add(ComplexNumber c)
 	{
-	Complex temp = new Complex();
+	ComplexNumber temp = new Complex();
         temp.a = this.a + c.a;
         temp.b = this.b + c.b;
         System.out.print("Add: ");
