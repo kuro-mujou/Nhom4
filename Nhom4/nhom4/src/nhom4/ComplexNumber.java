@@ -47,31 +47,19 @@ public class ComplexNumber
 	//hieu
 	public void subtract(ComplexNumber c)
 	{
-		ComplexNumber temp = new ComplexNumber();
-		temp.a = this.a - c.a;
-		temp.b = this.b - c.b;
-		System.out.println("Subtract: ");
-		temp.output();
+		
 	}
 	
 	//thanh
 	public void multiply(ComplexNumber c) 
 	{
-		ComplexNumber temp = new ComplexNumber();
-		temp.a = this.a*c.a - this.b*c.b;
-		temp.b = this.a*c.b + this.b*c.a;
-		System.out.print("Multiply: ");
-		temp.output();
+		
 	}
 	
 	//giang
 	public void divide(ComplexNumber c) 
 	{
-		ComplexNumber temp = new ComplexNumber();
-		temp.a = (this.a*c.a + this.b*c.b)/(this.a*this.a + this.b*this.b);
-		temp.b = (this.a*c.b - this.b*c.a)/(this.a*this.a + this.b*this.b);
-		System.out.print("Divide: ");
-		temp.output();	
+		
 	}
 	public static void main(String[] args) 
 	{
