@@ -63,7 +63,11 @@ public class ComplexNumber
 	//giang
 	public void divide(ComplexNumber c) 
 	{
-		
+		ComplexNumber temp = new ComplexNumber();
+		temp.a = (this.a*c.a + this.b*c.b)/(this.a*this.a + this.b*this.b);
+		temp.b = (this.a*c.b - this.b*c.a)/(this.a*this.a + this.b*this.b);
+		System.out.print("Divide: ");
+		temp.output();
 	}
 	public static void main(String[] args) 
 	{
