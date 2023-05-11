@@ -41,11 +41,7 @@ public class ComplexNumber
 	//bao
         public void add(ComplexNumber c)
 	{
-	ComplexNumber temp = new ComplexNumber();
-        temp.a = this.a + c.a;
-        temp.b = this.b + c.b;
-        System.out.print("Add: ");
-        temp.output();
+	
 	}
 	
 	//hieu
