@@ -57,7 +57,11 @@ public class ComplexNumber
 	//thanh
 	public void multiply(ComplexNumber c) 
 	{
-		
+            ComplexNumber temp = new ComplexNumber();
+            temp.a = this.a*c.a - this.b*c.b;
+            temp.b = this.a*c.b + this.b*c.a;
+            System.out.print("Multiply: ");
+            temp.output();
 	}
 	
 	//giang
